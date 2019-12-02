@@ -2,6 +2,8 @@
 
 """Top-level package for Vulture."""
 
-from .__version__ import __author__, __email__, __version__  # noqa: F401
+__author__ = """Pierre Logerais"""
+__email__ = 'plogerais@ipsl.fr'
+__version__ = '0.0.1'
 
 from .wsgi import application  # noqa: F401
