@@ -6,4 +6,4 @@
 
 __author__ = """Pierre Logerais"""
 __email__ = 'pierre.logerais@ipsl.fr'
-__version__ = '0.1.0'
+__version__ = '0.0.1'
