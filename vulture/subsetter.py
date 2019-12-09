@@ -40,4 +40,6 @@ class Subsetter(object):
 	out_filename = country + "_" + model + "_" + experiment + "_" + variable + "_" + year
 	outfile = os.path.join(self.output_dir, out_filename)
 
+	subset_data.to_netcdf(outfile)
+
         return outfile
